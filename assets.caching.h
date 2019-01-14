@@ -24,12 +24,9 @@ namespace assets {
 			cache(bool use_predefined);
 			std::string find_resource(std::string& name) const;
 		private:
-			std::mutex mutex;
 			std::map<std::string, std::string>::iterator cache_iter;
 			std::map<std::string, std::string> cache_storage;
 			std::vector<std::string> predefined_resources = { "beach.jpeg", "video.mp4" };
 		};
-
-		//const assets::cache::cache global_cache{ true };
 	}
 }

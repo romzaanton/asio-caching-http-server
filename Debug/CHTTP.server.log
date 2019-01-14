@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  asio.tcp.server.cpp
+  CHTTP.server.cpp
+  Generating Code...
+  CHTTP.server.vcxproj -> C:\Development\code_projects\CHTTP.server\Debug\CHTTP.server.exe
